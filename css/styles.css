@@ -166,3 +166,9 @@ body {
   line-height: 2;
   font-size: 18px;
 }
+
+/*     ===================       Stylowanie bloków ===================== */
+
+.container{
+  width: 1200px;
+}
