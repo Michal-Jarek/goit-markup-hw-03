@@ -166,11 +166,3 @@ body {
   line-height: 2;
   font-size: 18px;
 }
-
-/* ========================== Kontenery =================================*/
-.container{
-  width: 1200px;
-  /*display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
