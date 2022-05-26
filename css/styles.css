@@ -29,35 +29,60 @@ body {
   margin: 0;
   padding: 0;
 */
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
-ul, ol{
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
-p{
+p {
   padding: 0;
 }
 img {
   display: bolck;
 }
-.list{
+.list {
   list-style: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
-.container{
+
+/* =========================== kontenery ============================= */
+.container {
   width: 1200px;
   padding: 0 15px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
-.navigation .links{
+.navigation .links {
   display: flex;
+  align-items: center;
 }
+
+.links .logo {
+  margin-right: 93px;
+}
+.links .links-item:not(:last-child) {
+  margin-right: 46px;
+}
+.header-adress{
+  margin-left: auto;
+}
+.header-adress a:first-child{
+  margin-right: 50px;
+}
+
+
 
 /* Buttons styling */
 
@@ -67,6 +92,11 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
+}
+.order .buttons{
+  position: absolute;
+  width: 200px;
+  height: 50px;
 }
 .buttons:hover {
   background-color: var(--main-color);
