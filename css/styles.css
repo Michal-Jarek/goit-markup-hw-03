@@ -22,6 +22,43 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-txt-color);
 }
+/*
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+*/
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+}
+p{
+  padding: 0;
+}
+img {
+  display: bolck;
+}
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.navigation .links{
+  display: flex;
+}
+
 /* Buttons styling */
 
 .buttons {
@@ -168,7 +205,20 @@ body {
 }
 
 /*     ===================       Stylowanie bloków ===================== */
-
+/*
 .container{
   width: 1200px;
 }
+.order{
+  width: 1600px;
+}
+.navigation{
+  width: 1600px;
+}
+.foot{
+  width: 1600px;
+}
+.team{
+  width: 1600px;
+}
+*/
