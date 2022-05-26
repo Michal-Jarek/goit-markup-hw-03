@@ -166,3 +166,8 @@ body {
   line-height: 2;
   font-size: 18px;
 }
+
+/* ========================== Kontenery =================================*/
+.container{
+  width: 1200px;  
+}

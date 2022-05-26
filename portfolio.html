@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--                                                        Normalizacja stylu - aktywny border-box                                                                 -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +20,8 @@
     <title>Zadanie domowe #2 - portfolio</title>
   </head>
   <body>
-    <header class="navigation">
-      <nav>
+    <header class="container">
+      <nav class="navigation">
         <ul class="links">
           <li><a class="logo" href="index.html"><span class="first">Web</span><span class="second">Studio</span></a></li>
           <li><a href="index.html">Agencja</a></li>
@@ -29,7 +35,7 @@
       </div>
       
     </header>
-    <main>
+    <main class="container">
       <section class="references">
         <div class="filter">
           <ul>
@@ -200,7 +206,8 @@
         </div>
       </section>
     </main>
-    <footer class="foot">
+    <footer class="container">
+      <div class="foot">
       <a class="logo" href="index.html"
         ><span class="first">Web</span><span class="second">Studio</span></a
       >
@@ -223,8 +230,8 @@
             <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-        ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
