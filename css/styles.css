@@ -38,6 +38,12 @@ h6 {
   margin: 0;
   padding: 0;
 }
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
 ul,
 ol {
   margin: 0;
@@ -56,7 +62,6 @@ img {
   text-decoration: none;
 }
 
-
 /* =========================== kontenery ============================= */
 .container {
   width: 1200px;
@@ -65,14 +70,14 @@ img {
   align-items: center;
   margin: 0 auto;
 }
-.section{
+.section {
   padding: 94px 0;
 }
 .navigation .links {
   display: flex;
   align-items: center;
 }
-header .container{
+header .container {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -83,44 +88,56 @@ header .container{
 .links .links-item:not(:last-child) {
   margin-right: 46px;
 }
-.order .container{
+.order .container {
   flex-direction: column;
   text-align: center;
 }
-.order h1{
+.order h1 {
   margin-bottom: 30px;
   width: 696px;
-  
 }
 .order {
   padding: 200px 0;
 }
+/* =========== Description container ========= */
+
+.description .container dl{
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+.container-secondary{
+  width: 270px;
+}
+.description .container-secondary dt{
+  margin-bottom: 10px;
+} 
 
 /* ===================== Header ============ */
 
-.header-adress{
+.header-adress {
   margin-left: auto;
 }
-.header-adress a:first-child{
+.header-adress a:first-child {
   margin-right: 50px;
 }
 /* ==================== FOoter =============== */
 
-.foot .container{
+.foot .container {
   flex-direction: column;
   align-items: flex-start;
-  padding-top:60px;
+  padding-top: 60px;
 }
-.foot .container .links{
+.foot .container .links {
   margin-top: 11px;
   margin-bottom: 69px;
 }
 /* ================ Portfolio Styling =======*/
-.filter .list, .references-list .list{
-  display:flex;
+.filter .list,
+.references-list .list {
+  display: flex;
   justify-content: center;
 }
-
 
 /* Buttons styling */
 
@@ -152,7 +169,6 @@ header .container{
   border-radius: 4px;
   border: 0;
   padding: 10px 41px;
-
 }
 .order button:hover {
   background-color: var(--buttons-first-color);
@@ -242,10 +258,12 @@ header .container{
 .description dt {
   font-weight: 700;
   line-height: var(--line-height-small);
+  
 }
 .description dd {
   line-height: var(--line-height-big);
   color: var(--nav-second-color);
+  letter-spacing: 0.03em;
 }
 
 /* aboout us */
